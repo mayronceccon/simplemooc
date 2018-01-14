@@ -1,0 +1,15 @@
+#ativar virtualenv
+source venv/bin/activate
+
+#start project
+django-admin startproject simplemooc
+
+#sincronizar o banco - syncdb depreciado - criar tabelas
+python manage.py makemigrations
+python manage.py migrate
+
+#criar super user
+python manage.py createsuperuser
+
+#criar aplicação geral (coisas úteis)
+python manage.py startapp core

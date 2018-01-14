@@ -1,0 +1,8 @@
+doc/*
+venv/*
+.vscode/*
+*.sqlite3
+*.pyc
+__pycache__
+simplemooc/simplemooc/media/*
+*.log
