@@ -1,6 +1,8 @@
 #ativar virtualenv
 source venv/bin/activate
 
+pip install -r requirements.txt
+
 #start project
 django-admin startproject simplemooc
 
